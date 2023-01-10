@@ -1,0 +1,107 @@
+:root {
+    --cinza-principal: #667085;
+    --vinho-principal: #8E2424;
+    --branco-principal: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.cabecalho-links a {
+    color: var(--cinza-principal);
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+.cabecalho-links a:hover {
+    color: var(--vinho-principal);
+}
+
+button {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.55rem;
+    background: none;
+    font-weight: bold;
+    color: var(--cinza-principal);
+}
+
+.botao-entrar {
+    background-color: var(--vinho-principal);
+    color: var(--branco-principal);
+}
+
+/* Dia 1 do Projeto */
+
+.sobre-nos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6rem 0;
+}
+
+.subtitulo {
+    color: var(--vinho-principal);
+    font-weight: bold;
+}
+
+.titulo-secundario {
+    font-weight: bold;
+    font-size: 48px;
+    margin: 0.5em 0;
+    color: #101828;
+}
+
+.texto-secundario {
+    margin: 0 14em;
+    color: var(--cinza-principal);
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Dia 2 do Projeto */
+
+.lista{
+    display: flex;
+    margin: 2em 5em;
+}
+
+.lista-dado {
+    margin: 0 1em;
+    list-style: none;
+    width: 25%;
+}
+
+.titulo-dado {
+    font-size: 60px;
+    color: var(--vinho-principal);
+    margin-bottom: 0.3em;
+}
+
+.sub-dado {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0.5em;
+}
+
+.descricao-dado {
+    font-size: 15px;
+    color: var(--cinza-principal);
+}
