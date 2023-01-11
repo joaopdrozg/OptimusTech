@@ -104,4 +104,134 @@ button {
 .descricao-dado {
     font-size: 15px;
     color: var(--cinza-principal);
+    margin-bottom: 5em;
+}
+
+/* Dia 3 do Projeto */
+
+.section-vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6rem 0 2em;
+}
+
+.subtitulo-vagas {
+    color: var(--vinho-principal);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.titulo-vagas {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0.5em 0;
+    color: #101828;
+}
+
+.texto-vagas {
+    margin: 0 14em 4em;
+    color: var(--cinza-principal);
+    text-align: center;
+    font-size: 20px;
+}
+
+.imagem-funcionarios {
+    width: 85%;
+    height: 400px;
+    margin: 0 2em 1em;
+}
+
+/* Dia 4 do Projeto */
+
+.vaga-geral {
+    display: flex;
+    flex-direction: column;
+    margin: 0 21rem 4em;
+}
+
+.area-vaga {
+    margin-bottom: 2em;
+    font-size: 20px;
+    color: #101828;
+}
+
+.vaga {
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    margin: 0 0 1em;
+    padding: 2em;
+}
+
+.nome-vaga {
+    font-size: 18px;
+    color: #101828;
+    margin-bottom: 1.5em;
+}
+
+.descricao-vaga {
+    display: flex;
+}
+
+.dados-vaga {
+    font-size: 16px;
+    color: var(--cinza-principal);
+    margin-right: 2em;
+}
+
+.quadro-vagas {
+    margin-bottom: 3em;
+}
+
+/* Dia 4 do Projeto */
+
+.colaboradores {
+    background-color: rgba(196, 25, 25, 0.03);
+    margin: 0 3em;
+}
+
+.opiniao-colaborador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6rem 0 0;
+}
+
+.subtitulo-opiniao {
+    color: var(--vinho-principal);
+    font-weight: bold;
+    font-size: 14px;
+    margin: 4em 0 1em;
+}
+
+.texto-opiniao{
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0.5em 1em;
+    color: #101828;
+    text-align: center;
+}
+
+.dados-colaborador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em 0 2em;
+}
+
+.avatar-colab {
+    margin-bottom: 1em;
+}
+
+.nome-colab {
+    font-size: 16px;
+    color: #101828;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.funcao-colab {
+    font-size: 14px;
+    color: var(--cinza-principal);
+    margin-bottom: 3em;
 }
